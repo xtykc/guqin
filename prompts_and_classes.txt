@@ -1,0 +1,204 @@
+Classes
+
+subject_name,class
+
+食六抹三,食六抹三
+大十八挑四,大十八挑四
+中四抹二,中四抹二
+大五挑二,大五挑二
+中七九擘四,中七九擘四
+名七抹一,名七抹一
+中外抹四,中外抹四
+中七六挑五,中七六挑五
+大十挑四,大十挑四
+跪六四挑三,跪六四挑三
+名外抹七,名外抹七
+中七挑七,中七挑七
+中九抹二,中九抹二
+名七挑四,名七挑四
+大二抹二,大二抹二
+大四四挑四,大四四挑四
+跪五九挑七,跪五九挑七
+中六抹六,中六抹六
+大八半擘四,大八半擘四
+名四抹五,名四抹五
+名五抹七,名五抹七
+名七六擘六,名七六擘六
+中十二抹七,中十二抹七
+名七六挑二,名七六挑二
+食十二抹五,食十二抹五
+名九抹五,名九抹五
+大三抹四,大三抹四
+名十抹七,名十抹七
+食八抹七,食八抹七
+名十一挑二,名十一挑二
+名三抹三,名三抹三
+名五九挑二,名五九挑二
+食二挑二,食二挑二
+名八半挑五,名八半挑五
+名六二抹六,名六二抹六
+大六四挑二,大六四挑二
+名十挑七,名十挑七
+跪七挑一,跪七挑一
+中十一抹六,中十一抹六
+名五六挑四,名五六挑四
+跪六二挑五,跪六二挑五
+大四挑六,大四挑六
+大八半挑一,大八半挑一
+名六四挑六,名六四挑六
+中五九挑五,中五九挑五
+中十一挑五,中十一挑五
+名九挑六,名九挑六
+名十二挑六,名十二挑六
+跪五六挑一,跪五六挑一
+名八挑四,名八挑四
+大十二抹二,大十二抹二
+中八挑七,中八挑七
+名五挑六,名五挑六
+大九抹六,大九抹六
+名七擘四,名七擘四
+大四抹七,大四抹七
+大六二擘七,大六二擘七
+大一挑一,大一挑一
+食七抹五,食七抹五
+名外抹三,名外抹三
+中六二挑一,中六二挑一
+中外挑七,中外挑七
+大二挑五,大二挑五
+中四挑三,中四挑三
+名十二抹一,名十二抹一
+大六挑六,大六挑六
+名外挑四,名外挑四
+名二挑六,名二挑六
+中六四抹三,中六四抹三
+中五六挑七,中五六挑七
+中十三抹四,中十三抹四
+食五抹一,食五抹一
+中十抹四,中十抹四
+大八抹四,大八抹四
+大八擘六,大八擘六
+名六四擘四,名六四擘四
+食二抹二,食二抹二
+大七抹二,大七抹二
+大四擘四,大四擘四
+中十三挑三,中十三挑三
+食十抹一,食十抹一
+名七擘六,名七擘六
+名十三抹七,名十三抹七
+大一抹六,大一抹六
+名八抹三,名八抹三
+食三抹七,食三抹七
+中七九挑六,中七九挑六
+中十八挑一,中十八挑一
+中五抹四,中五抹四
+大七擘六,大七擘六
+跪四挑七,跪四挑七
+大九挑二,大九挑二
+食十抹三,食十抹三
+中四四挑一,中四四挑一
+中五九挑三,中五九挑三
+名七九挑三,名七九挑三
+
+Prompts
+
+Object Prompts
+
+prompt_list = [
+'a {0} {1} 食六抹三'.format(unique_token, class_token),
+'a {0} {1} 大十八挑四'.format(unique_token, class_token),
+'a {0} {1} 中四抹二'.format(unique_token, class_token),
+'a {0} {1} 大五挑二'.format(unique_token, class_token),
+'a {0} {1} 中七九擘四'.format(unique_token, class_token),
+'a {0} {1} 名七抹一'.format(unique_token, class_token),
+'a {0} {1} 中外抹四'.format(unique_token, class_token),
+'a {0} {1} 中七六挑五'.format(unique_token, class_token),
+'a {0} {1} 大十挑四'.format(unique_token, class_token),
+'a {0} {1} 跪六四挑三'.format(unique_token, class_token),
+'a {0} {1} 名外抹七'.format(unique_token, class_token),
+'a {0} {1} 中七挑七'.format(unique_token, class_token),
+'a {0} {1} 中九抹二'.format(unique_token, class_token),
+'a {0} {1} 名七挑四'.format(unique_token, class_token),
+'a {0} {1} 大二抹二'.format(unique_token, class_token),
+'a {0} {1} 大四四挑四'.format(unique_token, class_token),
+'a {0} {1} 跪五九挑七'.format(unique_token, class_token),
+'a {0} {1} 中六抹六'.format(unique_token, class_token),
+'a {0} {1} 名四抹五'.format(unique_token, class_token),
+'a {0} {1} 名五抹七'.format(unique_token, class_token),
+'a {0} {1} 名七六擘六'.format(unique_token, class_token),
+'a {0} {1} 大八半擘四'.format(unique_token, class_token),
+'a {0} {1} 中十二抹七'.format(unique_token, class_token),
+'a {0} {1} 名七六挑二'.format(unique_token, class_token),
+'a {0} {1} 食十二抹五'.format(unique_token, class_token),
+'a {0} {1} 名九抹五'.format(unique_token, class_token),
+'a {0} {1} 大三抹四'.format(unique_token, class_token),
+'a {0} {1} 名十抹七'.format(unique_token, class_token),
+'a {0} {1} 食八抹七'.format(unique_token, class_token),
+'a {0} {1} 名十一挑二'.format(unique_token, class_token),
+'a {0} {1} 名三抹三'.format(unique_token, class_token),
+'a {0} {1} 名五九挑二'.format(unique_token, class_token),
+'a {0} {1} 食二挑二'.format(unique_token, class_token),
+'a {0} {1} 名八半挑五'.format(unique_token, class_token),
+'a {0} {1} 名六二抹六'.format(unique_token, class_token),
+'a {0} {1} 大六四挑二'.format(unique_token, class_token),
+'a {0} {1} 名十挑七'.format(unique_token, class_token),
+'a {0} {1} 跪七挑一'.format(unique_token, class_token),
+'a {0} {1} 中十一抹六'.format(unique_token, class_token),
+'a {0} {1} 名五六挑四'.format(unique_token, class_token),
+'a {0} {1} 跪六二挑五'.format(unique_token, class_token),
+'a {0} {1} 大四挑六'.format(unique_token, class_token),
+'a {0} {1} 大八半挑一'.format(unique_token, class_token),
+'a {0} {1} 名六四挑六'.format(unique_token, class_token),
+'a {0} {1} 中五九挑五'.format(unique_token, class_token),
+'a {0} {1} 中十一挑五'.format(unique_token, class_token),
+'a {0} {1} 名九挑六'.format(unique_token, class_token),
+'a {0} {1} 名十二挑六'.format(unique_token, class_token),
+'a {0} {1} 跪五六挑一'.format(unique_token, class_token),
+'a {0} {1} 名八挑四'.format(unique_token, class_token),
+'a {0} {1} 大十二抹二'.format(unique_token, class_token),
+'a {0} {1} 中八挑七'.format(unique_token, class_token),
+'a {0} {1} 名五挑六'.format(unique_token, class_token),
+'a {0} {1} 大九抹六'.format(unique_token, class_token),
+'a {0} {1} 名七擘四'.format(unique_token, class_token),
+'a {0} {1} 大四抹七'.format(unique_token, class_token),
+'a {0} {1} 大六二擘七'.format(unique_token, class_token),
+'a {0} {1} 大一挑一'.format(unique_token, class_token),
+'a {0} {1} 食七抹五'.format(unique_token, class_token),
+'a {0} {1} 名外抹三'.format(unique_token, class_token),
+'a {0} {1} 中六二挑一'.format(unique_token, class_token),
+'a {0} {1} 中外挑七'.format(unique_token, class_token),
+'a {0} {1} 大二挑五'.format(unique_token, class_token),
+'a {0} {1} 中四挑三'.format(unique_token, class_token),
+'a {0} {1} 名十二抹一'.format(unique_token, class_token),
+'a {0} {1} 大六挑六'.format(unique_token, class_token),
+'a {0} {1} 名外挑四'.format(unique_token, class_token),
+'a {0} {1} 名二挑六'.format(unique_token, class_token),
+'a {0} {1} 中六四抹三'.format(unique_token, class_token),
+'a {0} {1} 中五六挑七'.format(unique_token, class_token),
+'a {0} {1} 中十三抹四'.format(unique_token, class_token),
+'a {0} {1} 食五抹一'.format(unique_token, class_token),
+'a {0} {1} 中十抹四'.format(unique_token, class_token),
+'a {0} {1} 大八抹四'.format(unique_token, class_token),
+'a {0} {1} 大八擘六'.format(unique_token, class_token),
+'a {0} {1} 名六四擘四'.format(unique_token, class_token),
+'a {0} {1} 食二抹二'.format(unique_token, class_token),
+'a {0} {1} 大七抹二'.format(unique_token, class_token),
+'a {0} {1} 大四擘四'.format(unique_token, class_token),
+'a {0} {1} 中十三挑三'.format(unique_token, class_token),
+'a {0} {1} 食十抹一'.format(unique_token, class_token),
+'a {0} {1} 名七擘六'.format(unique_token, class_token),
+'a {0} {1} 名十三抹七'.format(unique_token, class_token),
+'a {0} {1} 大一抹六'.format(unique_token, class_token),
+'a {0} {1} 名八抹三'.format(unique_token, class_token),
+'a {0} {1} 食三抹七'.format(unique_token, class_token),
+'a {0} {1} 中七九挑六'.format(unique_token, class_token),
+'a {0} {1} 中十八挑一'.format(unique_token, class_token),
+'a {0} {1} 中五抹四'.format(unique_token, class_token),
+'a {0} {1} 大七擘六'.format(unique_token, class_token),
+'a {0} {1} 跪四挑七'.format(unique_token, class_token),
+'a {0} {1} 大九挑二'.format(unique_token, class_token),
+'a {0} {1} 食十抹三'.format(unique_token, class_token),
+'a {0} {1} 中四四挑一'.format(unique_token, class_token),
+'a {0} {1} 中五九挑三'.format(unique_token, class_token),
+'a {0} {1} 名七九挑三'.format(unique_token, class_token)
+]
+
