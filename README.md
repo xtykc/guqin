@@ -34,7 +34,7 @@
 基于GenAI技术的向量化知识表示方法可以很好地解决多模态文化记忆资源的相似性计算和跨模态检索这样的判别式问题，但在自然语言交互这种生成式问题的解决上，还要结合语义化的方法，充分利用已有的知识表示方法和成果，以改善决大模型的幻觉问题，提升其可靠性、专业性和可解释性。
 
 # 引用
-[1]夏翠娟.GenAI技术环境下多模态文化记忆资源的知识表示研究：以古琴减字谱为例[J/OL].中国图书馆学报,1-30[2025-12-07].https://link.cnki.net/urlid/11.2746.G2.20251204.1826.002.
+[1]夏翠娟.GenAI技术环境下多模态文化记忆资源的知识表示研究：以古琴减字谱为例[J].中国图书馆学报,2026,52(2):126-154.(Xia Cuijuan.Knowledge Representation of Multimodal Cultural Memory Resources in the GenAI Environment: The Guqin SubtractiveNotation as a Case Study[J].Journal of Library Science in China, 2026,52(2):126-154.)
 
 # 特别致谢
 张梦石、刘阳、宋杰。没有你们，我无法完成这项重要的阶段性研究工作。
